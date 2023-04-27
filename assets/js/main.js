@@ -53,7 +53,20 @@ skillsHeader.forEach((el) => {
 /*==================== SERVICES MODAL ====================*/
 
 /*==================== PORTFOLIO SWIPER  ====================*/
-
+let swiper = new Swiper(".portfolio_container", {
+  cssMode: true,
+  loop: true,
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+  // mousewheel: false,
+  // keyboard: true,
+});
 /*==================== TESTIMONIAL ====================*/
 
 /*==================== SCROLL SECTIONS ACTIVE LINK ====================*/
