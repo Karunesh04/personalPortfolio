@@ -384,7 +384,7 @@ img {
 }
 
 .about_info-title {
-  font-size: var(--h2-font-size);
+  font-size: var(--h3-font-size);
   font-weight: var(--font-semi-bold);
   color: var(--title-color);
 }
@@ -484,7 +484,7 @@ img {
 }
 
 .skills_react {
-  width: 80%;
+  width: 50%;
 }
 
 .skills_node {
