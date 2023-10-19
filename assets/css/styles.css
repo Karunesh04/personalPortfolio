@@ -242,10 +242,14 @@ img {
 }
 
 /* Active link */
-
+.active-link {
+  color: var(--first-color);
+}
 
 /* Change background header */
-
+.scroll-header {
+   box-shadow: 0 -1px 4px #00000f;
+}
 
 /*==================== HOME ====================*/
 .home_container {
